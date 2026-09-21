@@ -11,9 +11,9 @@ require_once __DIR__ . "/backend/getStudent.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="backend/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="backend/assets/css/index.css">
+    <link rel="stylesheet" href="backend/assets/css/responsive.css">
 
 </head>
 
@@ -22,7 +22,7 @@ require_once __DIR__ . "/backend/getStudent.php";
         <div class="body">
             <form class=" w-50 m-auto" method="POST" action="backend/edit.php">
                 <div class="header text-center">
-                    <img src="assets/images/10001.png" class="m-auto" alt="">
+                    <img src="backend/assets/images/10001.png" class="m-auto" alt="">
                 </div>
                 <input type="hidden" name="student_id"
                     value="<?php echo old('id') ?>">
@@ -97,10 +97,10 @@ require_once __DIR__ . "/backend/getStudent.php";
     </div>
 
 
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/sweetalert.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="backend/assets/js/bootstrap.js"></script>
+    <script src="backend/assets/js/jquery.js"></script>
+    <script src="backend/assets/js/sweetalert.js"></script>
+    <script src="backend/assets/js/index.js"></script>
 </body>
 
 </html>
