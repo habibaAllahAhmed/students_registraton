@@ -1,0 +1,159 @@
+@media (max-width: 1300px) {
+
+    #Register,
+    #Edit,
+    #Search,
+    #Data {
+        width: 100%;
+    }
+
+    #Register,
+    #Edit {
+        padding: 25px !important;
+    }
+
+    #Register form,
+    #Edit form {
+        width: 100% !important;
+    }
+
+    #Search {
+        padding: 20px !important;
+    }
+
+    #Data {
+        padding: 10px;
+    }
+
+    #Data table {
+        min-width: 800px;
+    }
+
+    #Data .table-responsive {
+        overflow-x: auto;
+    }
+
+
+    .pagination .page-link {
+        color: #6F35B6;
+        border: none;
+        background: white;
+
+    }
+
+    .pagination .page-link:hover,
+    .pagination .page-link.active {
+        color: white;
+        background: #6F35B6;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+
+    #Edit {
+        width: 80%;
+    }
+
+    #Register,
+    #Edit {
+        margin: 20px auto;
+        border-radius: 18px;
+    }
+
+    #Register .header img,
+    #Edit .header img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .form-control {
+        height: 46px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 1300px) {
+
+    #Register,
+    #Edit {
+        width: 100%;
+        margin: 20px auto;
+        border-radius: 18px;
+    }
+
+    #Register form,
+    #Edit form {
+        width: 70% !important;
+    }
+
+    #Search {
+        width: 70% !important;
+    }
+
+    #Search form {
+        width: 90% !important;
+    }
+
+    body>nav {
+        margin: 30px auto 50px;
+    }
+
+    .pagination {
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .pagination .page-link {
+        border: none;
+        border-radius: 10px !important;
+
+        color: #6F35B6;
+        background: white;
+
+        min-width: 40px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+        transition: 0.25s ease;
+    }
+
+    .pagination .page-link:hover,
+    .pagination .page-link.active {
+        color: white;
+        background: #6F35B6;
+
+        transform: translateY(-2px);
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1300px) {
+
+    #Register,
+    #Edit {
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    #Search {
+        width: 55% !important;
+    }
+
+    #Search form {
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}
+
+@media (min-width: 1300px) and (max-width: 1400px) {}
